@@ -1,5 +1,8 @@
 
 import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.cross_validation import train_test_split
+
 import AbstractClassifier
 
 class LibraryLogisticRegression(AbstractClassifier.AbstractClassifier):
@@ -15,7 +18,7 @@ class LibraryLogisticRegression(AbstractClassifier.AbstractClassifier):
 
     def normalize():
         """
-            Normalize (preprocess) the loaded data.
+            Normalize (preprocess) the loaded data. This also splits the data into training set, evaluation set and test set.
         """
         pass
 
@@ -38,5 +41,12 @@ class LibraryLogisticRegression(AbstractClassifier.AbstractClassifier):
         """
             Perform prediction on all runners.
             Output: determined by the type of model.
+        """
+        pass
+
+    def evaluate():
+        """
+            Evaluate the trained model.
+            Output: tuple containing two values: training error and test error (on test set)
         """
         pass

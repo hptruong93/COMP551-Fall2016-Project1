@@ -15,7 +15,7 @@ class AbstractClassifier(object):
     @abstractmethod
     def normalize():
         """
-            Normalize (preprocess) the loaded data.
+            Normalize (preprocess) the loaded data. This also splits the data into training set, evaluation set and test set.
         """
         pass
 
@@ -41,5 +41,13 @@ class AbstractClassifier(object):
         """
             Perform prediction on all runners.
             Output: determined by the type of model.
+        """
+        pass
+
+    @abstractmethod
+    def evaluate():
+        """
+            Evaluate the trained model.
+            Output: tuple containing two values: training error and test error (on test set)
         """
         pass
