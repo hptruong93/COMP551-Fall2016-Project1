@@ -9,3 +9,5 @@ if __name__ == "__main__":
 	model.train()
 	result = model.predict()
 
+	errors = model.evaluate()
+	print errors
