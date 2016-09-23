@@ -25,7 +25,9 @@ class _InnerModel(object):
     """
 
     THRESHOLD = 0.5
-    DEFAULT_STEP = 0.005
+    DEFAULT_STEP = 0.01
+    REDUCTION_FACTOR = 0.75
+    COST_THRESHOLD = 0.000001
 
     def __init__(self):
         super(_InnerModel, self).__init__()
@@ -88,10 +90,10 @@ class _InnerModel(object):
             write_stdout("Cost is %s and norm of delta is %s. " % (str(new_cost), str(norm)))
             write_stdout("Took {0}s".format(time.time() - start))
 
-            if old_cost is not None and abs(new_cost - old_cost) < 0.000001:
+            if old_cost is not None and abs(new_cost - old_cost) < _InnerModel.COST_THRESHOLD:
                 break
             elif new_cost > old_cost:
-                self.step = self.step / 2
+                self.step = self.step * _InnerModel.REDUCTION_FACTOR
 
             old_cost = new_cost
 
@@ -125,29 +127,18 @@ class ManualLogisticRegression(LibraryLogisticRegression.LibraryLogisticRegressi
         super(ManualLogisticRegression, self).__init__()
         self.data = None
 
-    def normalize(self):
-        """
-            Normalize (preprocess) the loaded data. This also splits the data into training set, evaluation set and test set.
-        """
-        self.X = preprocessing.normalize(self.X, axis = 0) # Normalize the features to have 0 mean and unit variance
-        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X, self.y, test_size = 0.2, random_state = 69)
+    def normalize(self, X, y):
+        X = preprocessing.normalize(X, axis = 0) # Normalize the features to have 0 mean and unit variance
+        return X, y
 
-        self.X = None
-        self.y = None
-
-    def train(self):
-        """
-            Train the internal model using the appropriate method.
-            E.g. logistic regression using gradient descent or linear regression using closed form solution.
-        """
+    def train(self, X, y):
         self.model = _InnerModel()
-        self.model.fit(self.X_train, self.y_train)
 
-    def predict(self):
-        """
-            Perform prediction on all runners.
-            Output: determined by the type of model.
-        """
-        X_predict = feature_extractor.extract_features(self.data, LibraryLogisticRegression._PREDICTING_YEARS)
+        start = time.time()
+        self.model.fit(X, y)
+        print "Training took {0}s".format(time.time() - start)
+
+    def predict(self, data):
+        X_predict = feature_extractor.extract_features(data, LibraryLogisticRegression._PREDICTING_YEARS)
         X_predict = preprocessing.normalize(X_predict, axis = 0) # Normalize the features to have 0 mean and unit variance
         return self.model.predict(X_predict)

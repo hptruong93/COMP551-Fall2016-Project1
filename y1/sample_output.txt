@@ -1,0 +1,270 @@
+k = 10, reduction factor = 0.75
+
+m is 15 and n is 7839
+Iteration 21369... Cost is 0.508201724073 and norm of delta is 2.7981824877. Took 0.00297594070435ss
+Training took 59.3115150928s
+m is 15 and n is 7839
+Iteration 21391... Cost is 0.508684659052 and norm of delta is 2.79820334095. Took 0.00281119346619s
+Training took 59.2861030102s
+m is 15 and n is 7839
+Iteration 21303... Cost is 0.509158321264 and norm of delta is 2.79823034896. Took 0.00274205207825s
+Training took 59.1925721169s
+m is 15 and n is 7839
+Iteration 22111... Cost is 0.500391013315 and norm of delta is 2.79813536508. Took 0.00284695625305s
+Training took 61.2223920822s
+m is 15 and n is 7839
+Iteration 21663... Cost is 0.504822693331 and norm of delta is 2.79825002518. Took 0.00280809402466s
+Training took 59.961275816s
+m is 15 and n is 7839
+Iteration 21378... Cost is 0.509288652294 and norm of delta is 2.79816839842. Took 0.00287508964539s
+Training took 59.1401789188s
+m is 15 and n is 7839
+Iteration 21632... Cost is 0.503068481962 and norm of delta is 2.7981983976. Took 0.00273108482361ss
+Training took 60.3396799564s
+m is 15 and n is 7839
+Iteration 21517... Cost is 0.50855057303 and norm of delta is 2.79812823712. Took 0.0027539730072s6s
+Training took 60.1873879433s
+m is 15 and n is 7839
+Iteration 21470... Cost is 0.505523920869 and norm of delta is 2.79814634137. Took 0.00292682647705s
+Training took 60.0230329037s
+m is 15 and n is 7848
+Iteration 21029... Cost is 0.513097570719 and norm of delta is 2.79975469412. Took 0.00272583961487s
+Training took 58.8690290451s
+m is 15 and n is 8711
+Iteration 23839... Cost is 0.508889777291 and norm of delta is 3.40610737009. Took 0.00313401222229s
+Training took 73.7782380581s
+Train/test errors: 0.210869903599, 0.212931474375
+
+########################################################################################################################################################################
+k = 50, reduction factor = 0.75
+
+m is 15 and n is 8536
+Iteration 24159... Cost is 0.508221850689 and norm of delta is 3.37167588833. Took 0.00202298164368s
+Training took 48.5593447685s
+m is 15 and n is 8536
+Iteration 24223... Cost is 0.508485990542 and norm of delta is 3.37173484272. Took 0.00200605392456s
+Training took 49.1420481205s
+m is 15 and n is 8536
+Iteration 24194... Cost is 0.50968252389 and norm of delta is 3.37164747009. Took 0.00198817253113ss
+Training took 48.5435519218s
+m is 15 and n is 8536
+Iteration 23880... Cost is 0.511752133059 and norm of delta is 3.37164985267. Took 0.00198984146118s
+Training took 47.7840118408s
+m is 15 and n is 8536
+Iteration 24186... Cost is 0.508281941288 and norm of delta is 3.37161555983. Took 0.00198292732239s
+Training took 48.0539360046s
+m is 15 and n is 8536
+Iteration 24060... Cost is 0.509911673109 and norm of delta is 3.37172517404. Took 0.00199890136719s
+Training took 48.2564108372s
+m is 15 and n is 8536
+Iteration 23949... Cost is 0.509589157242 and norm of delta is 3.37174939748. Took 0.00198292732239s
+Training took 47.5945668221s
+m is 15 and n is 8536
+Iteration 24264... Cost is 0.509886996026 and norm of delta is 3.37169695458. Took 0.00200700759888s
+Training took 48.9344890118s
+m is 15 and n is 8536
+Iteration 24315... Cost is 0.507409910148 and norm of delta is 3.37163270343. Took 0.00200390815735s
+Training took 49.2271380424s
+m is 15 and n is 8536
+Iteration 24083... Cost is 0.509552116207 and norm of delta is 3.37161754748. Took 0.00202083587646s
+Training took 49.0099649429s
+m is 15 and n is 8536
+Iteration 24152... Cost is 0.508265155887 and norm of delta is 3.37169623587. Took 0.0020170211792ss
+Training took 48.8981940746s
+m is 15 and n is 8536
+Iteration 24314... Cost is 0.507930711861 and norm of delta is 3.37172209796. Took 0.00200915336609s
+Training took 49.0876729488s
+m is 15 and n is 8536
+Iteration 24080... Cost is 0.51002476651 and norm of delta is 3.37167423609. Took 0.00199484825134ss
+Training took 48.7403080463s
+m is 15 and n is 8536
+Iteration 24222... Cost is 0.507624896656 and norm of delta is 3.37175110346. Took 0.00202107429504s
+Training took 49.3099780083s
+m is 15 and n is 8536
+Iteration 24119... Cost is 0.509148692552 and norm of delta is 3.37170252081. Took 0.00200486183167s
+Training took 48.8459630013s
+m is 15 and n is 8536
+Iteration 24188... Cost is 0.508337080735 and norm of delta is 3.37164332753. Took 0.00202012062073s
+Training took 49.2160389423s
+m is 15 and n is 8536
+Iteration 24287... Cost is 0.508223393436 and norm of delta is 3.37174371175. Took 0.00200414657593s
+Training took 49.1916718483s
+m is 15 and n is 8536
+Iteration 24067... Cost is 0.509484081798 and norm of delta is 3.37163208032. Took 0.00202608108521s
+Training took 48.9875788689s
+m is 15 and n is 8536
+Iteration 24123... Cost is 0.509572295002 and norm of delta is 3.37167351377. Took 0.00199913978577s
+Training took 48.8935170174s
+m is 15 and n is 8536
+Iteration 23941... Cost is 0.509860641253 and norm of delta is 3.37169785715. Took 0.00201892852783s
+Training took 48.7313711643s
+m is 15 and n is 8536
+Iteration 24114... Cost is 0.509436460216 and norm of delta is 3.37162277192. Took 0.00201296806335s
+Training took 48.8260359764s
+m is 15 and n is 8536
+Iteration 24147... Cost is 0.50849974427 and norm of delta is 3.37174050292. Took 0.00200605392456ss
+Training took 48.7306649685s
+m is 15 and n is 8536
+Iteration 24009... Cost is 0.510198236111 and norm of delta is 3.37174197391. Took 0.00203204154968s
+Training took 48.5474090576s
+m is 15 and n is 8536
+Iteration 24280... Cost is 0.507740617127 and norm of delta is 3.37173445457. Took 0.00200700759888s
+Training took 49.0461227894s
+m is 15 and n is 8536
+Iteration 24099... Cost is 0.509614128192 and norm of delta is 3.3716141622. Took 0.0020158290863s5s
+Training took 48.7883028984s
+m is 15 and n is 8536
+Iteration 24156... Cost is 0.508508855453 and norm of delta is 3.37161241524. Took 0.00200295448303s
+Training took 48.7933468819s
+m is 15 and n is 8536
+Iteration 24136... Cost is 0.508180498982 and norm of delta is 3.37161151876. Took 0.00200700759888s
+Training took 48.8802959919s
+m is 15 and n is 8536
+Iteration 24132... Cost is 0.508360047123 and norm of delta is 3.37163569376. Took 0.00201797485352s
+Training took 49.1186299324s
+m is 15 and n is 8536
+Iteration 24038... Cost is 0.510467857192 and norm of delta is 3.37168522834. Took 0.00202083587646s
+Training took 48.6793339252s
+m is 15 and n is 8536
+Iteration 24113... Cost is 0.50906703954 and norm of delta is 3.371675774. Took 0.00200915336609s1ss
+Training took 48.7380647659s
+m is 15 and n is 8536
+Iteration 24117... Cost is 0.509486354029 and norm of delta is 3.37163156742. Took 0.00201392173767s
+Training took 48.8231379986s
+m is 15 and n is 8536
+Iteration 24138... Cost is 0.509464155414 and norm of delta is 3.37165987165. Took 0.00200510025024s
+Training took 48.7368819714s
+m is 15 and n is 8536
+Iteration 24203... Cost is 0.508542900694 and norm of delta is 3.37171118647. Took 0.00202202796936s
+Training took 49.0276138783s
+m is 15 and n is 8536
+Iteration 24160... Cost is 0.510149388492 and norm of delta is 3.37170021315. Took 0.00200915336609s
+Training took 48.7804398537s
+m is 15 and n is 8536
+Iteration 24068... Cost is 0.509933401652 and norm of delta is 3.37163863602. Took 0.00199794769287s
+Training took 48.7350661755s
+m is 15 and n is 8536
+Iteration 24261... Cost is 0.508114401041 and norm of delta is 3.37169594874. Took 0.00201606750488s
+Training took 49.3731338978s
+m is 15 and n is 8536
+Iteration 24085... Cost is 0.508708943725 and norm of delta is 3.37170764391. Took 0.00200605392456s
+Training took 48.7809679508s
+m is 15 and n is 8536
+Iteration 24128... Cost is 0.509020939124 and norm of delta is 3.37168552986. Took 0.0020170211792ss
+Training took 49.0927321911s
+m is 15 and n is 8536
+Iteration 24088... Cost is 0.509548145595 and norm of delta is 3.37162643566. Took 0.00202202796936s
+Training took 48.7722821236s
+m is 15 and n is 8536
+Iteration 24014... Cost is 0.509309314732 and norm of delta is 3.37164578928. Took 0.00200700759888s
+Training took 48.4834418297s
+m is 15 and n is 8536
+Iteration 24350... Cost is 0.50777033448 and norm of delta is 3.37162314089. Took 0.00201296806335ss
+Training took 49.2830657959s
+m is 15 and n is 8536
+Iteration 24177... Cost is 0.508572087172 and norm of delta is 3.37170042315. Took 0.00202298164368s
+Training took 49.2394590378s
+m is 15 and n is 8536
+Iteration 24164... Cost is 0.50895762863 and norm of delta is 3.37166839713. Took 0.00201511383057ss
+Training took 49.0448029041s
+m is 15 and n is 8536
+Iteration 24149... Cost is 0.509319443843 and norm of delta is 3.37164655518. Took 0.00201106071472s
+Training took 48.7581090927s
+m is 15 and n is 8536
+Iteration 24226... Cost is 0.508829790911 and norm of delta is 3.37162489681. Took 0.00200581550598s
+Training took 49.0447371006s
+m is 15 and n is 8536
+Iteration 24113... Cost is 0.509566049528 and norm of delta is 3.37172675125. Took 0.00202584266663s
+Training took 49.0692870617s
+m is 15 and n is 8536
+Iteration 24047... Cost is 0.510086360092 and norm of delta is 3.37173630345. Took 0.00200986862183s
+Training took 48.6911711693s
+m is 15 and n is 8536
+Iteration 24280... Cost is 0.507928300815 and norm of delta is 3.37164299699. Took 0.0020170211792ss
+Training took 49.4063580036s
+m is 15 and n is 8536
+Iteration 24004... Cost is 0.510717276446 and norm of delta is 3.37170184395. Took 0.00202083587646s
+Training took 48.5869410038s
+m is 15 and n is 8575
+Iteration 24101... Cost is 0.509193567305 and norm of delta is 3.37932504. Took 0.0020170211792s625s
+Training took 48.8355498314s
+m is 15 and n is 8711
+Iteration 23860... Cost is 0.508893075563 and norm of delta is 3.40609909741. Took 0.00204300880432s
+Training took 49.0657479763s
+Train/test errors: 0.21434084447, 0.215824369748
+
+########################################################################################################################################################################
+k = 10, reduction factor = 0.8
+m is 15 and n is 7839
+Iteration 23335... Cost is 0.509640565548 and norm of delta is 3.02084821599. Took 0.00187611579895s
+Training took 44.1345038414s
+m is 15 and n is 7839
+Iteration 23298... Cost is 0.510116903778 and norm of delta is 3.02080029198. Took 0.00186705589294s
+Training took 43.5450139046s
+m is 15 and n is 7839
+Iteration 23246... Cost is 0.51058871408 and norm of delta is 3.02080035228. Took 0.00187182426453ss
+Training took 43.5820231438s
+m is 15 and n is 7839
+Iteration 24125... Cost is 0.501880134853 and norm of delta is 3.02084692892. Took 0.0018630027771ss
+Training took 44.8241159916s
+m is 15 and n is 7839
+Iteration 23681... Cost is 0.506276061438 and norm of delta is 3.02086826678. Took 0.00186896324158s
+Training took 44.3906760216s
+m is 15 and n is 7839
+Iteration 23278... Cost is 0.510728047322 and norm of delta is 3.02082492464. Took 0.00186014175415s
+Training took 43.4612669945s
+m is 15 and n is 7839
+Iteration 23648... Cost is 0.504528294117 and norm of delta is 3.02090815806. Took 0.00187087059021s
+Training took 45.0263419151s
+m is 15 and n is 7839
+Iteration 23509... Cost is 0.510007605632 and norm of delta is 3.02090073526. Took 0.00187087059021s
+Training took 44.7760260105s
+m is 15 and n is 7839
+Iteration 23452... Cost is 0.506973731116 and norm of delta is 3.02090924676. Took 0.00189685821533s
+Training took 44.8059790134s
+m is 15 and n is 7848
+Iteration 22968... Cost is 0.514510065887 and norm of delta is 3.0226277578. Took 0.00186491012573ss
+Training took 43.7960090637s
+m is 15 and n is 8711
+Iteration 22052... Cost is 0.507574308352 and norm of delta is 3.18439071952. Took 0.00204515457153s
+Training took 45.887294054s
+Train/test errors: 0.212949060274, 0.215456802067
+
+########################################################################################################################################################################
+k = 10, reduction factor = 0.9
+m is 15 and n is 7839
+Iteration 21486... Cost is 0.508356124458 and norm of delta is 2.82131834972. Took 0.00186896324158s
+Training took 40.8403499126s
+m is 15 and n is 7839
+Iteration 21527... Cost is 0.508828320441 and norm of delta is 2.82134527629. Took 0.00186014175415s
+Training took 40.9055891037s
+m is 15 and n is 7839
+Iteration 21450... Cost is 0.509297018567 and norm of delta is 2.82132932968. Took 0.00186204910278s
+Training took 40.8544559479s
+m is 15 and n is 7839
+Iteration 22251... Cost is 0.500551935198 and norm of delta is 2.82130054737. Took 0.00185799598694s
+Training took 42.2767648697s
+m is 15 and n is 7839
+Iteration 21821... Cost is 0.504968568834 and norm of delta is 2.82128302335. Took 0.00186896324158s
+Training took 41.5485088825s
+m is 15 and n is 7839
+Iteration 21475... Cost is 0.50943618555 and norm of delta is 2.82141662854. Took 0.00185990333557ss
+Training took 40.8139340878s
+m is 15 and n is 7839
+Iteration 21788... Cost is 0.503218534573 and norm of delta is 2.82132070151. Took 0.00185704231262s
+Training took 41.4324119091s
+m is 15 and n is 7839
+Iteration 21692... Cost is 0.508700794794 and norm of delta is 2.82142524434. Took 0.00185894966125s
+Training took 41.1980998516s
+m is 15 and n is 7839
+Iteration 21625... Cost is 0.50567269416 and norm of delta is 2.82138260135. Took 0.00186610221863ss
+Training took 41.258409977s
+m is 15 and n is 7848
+Iteration 21153... Cost is 0.513247500133 and norm of delta is 2.82303270903. Took 0.00186800956726s
+Training took 40.2069051266s
+m is 15 and n is 8711
+Iteration 21593... Cost is 0.507306992918 and norm of delta is 3.1350215367. Took 0.00204992294312ss
+Training took 44.8031518459s
+Train/test errors: 0.211150551641, 0.213046153274
+########################################################################################################################################################################
+k = 10, reduction factor = 0.7
