@@ -1,0 +1,1 @@
+in the function of NaiveBayes, change the set the first variable from 2013 to 2016 predicting the output of the specific year. 
