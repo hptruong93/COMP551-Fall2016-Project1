@@ -24,7 +24,7 @@ class _InnerModel(object):
         Implementation of Logistic regression.
     """
 
-    THRESHOLD = 0.5
+    THRESHOLD = 0.6
     DEFAULT_STEP = 0.01
     REDUCTION_FACTOR = 0.75
     COST_THRESHOLD = 0.000001
